@@ -1,0 +1,4 @@
+modules needed
+    passport
+    passport local
+    passport local mongoose
