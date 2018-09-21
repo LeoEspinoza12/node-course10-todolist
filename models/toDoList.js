@@ -15,7 +15,6 @@ const todoSchema = new Schema({
 });
 
 
-// later we must POPULATE THE USER INFORMATION 
 
 var ToDoList = mongoose.model('ToDoList', todoSchema);
 

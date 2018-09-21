@@ -15,7 +15,6 @@ listsRouter.all('/*', (req, res, next) => {
 })
 
 
-
 listsRouter.route('/')
 .get(authenticate.verifyTokenUser, (req, res, next) => {
    var todos = [];

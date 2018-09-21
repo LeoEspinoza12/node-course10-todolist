@@ -16,10 +16,6 @@ const userSchema = new Schema({
   //   require: true
   // },
 
-
-
-
-
   admin: {
     type: Boolean,
     default: false
